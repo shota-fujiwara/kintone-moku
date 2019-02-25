@@ -10,15 +10,15 @@ public class JavaSdkSample {
 
     public static void main(String[] args) throws KintoneAPIException {
 
-        String USERNAME = "tanaka";
-        String PASSWORD = "tanaka";
+        String USERNAME = "xxxx";
+        String PASSWORD = "xxxx";
 
         // Init authenticationAuth
         Auth kintoneAuthWithPassword = new Auth();
         kintoneAuthWithPassword.setPasswordAuth(USERNAME, PASSWORD);
 
         // Init Connection without "guest space ID"
-        Connection kintoneConnection = new Connection("cy2013.cybozu.com", kintoneAuthWithPassword);
+        Connection kintoneConnection = new Connection("sample.cybozu.com", kintoneAuthWithPassword);
 
         // Init Record Module
         Record kintoneRecord = new Record(kintoneConnection);
