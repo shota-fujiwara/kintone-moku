@@ -1,5 +1,5 @@
-var appID = 457;
-var recordID = 1;
+var appID = 000;
+var recordID = 00;
  
 var kintoneConnection = new kintoneJSSDK.Connection();
 var kintoneRecord = new kintoneJSSDK.Record(kintoneConnection);
