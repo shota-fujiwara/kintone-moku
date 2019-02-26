@@ -29,7 +29,7 @@ public class JavaSdkSample {
         // Init Record Module
         Record kintoneRecord = new Record(kintoneConnection);
 
-        Integer appID = 457;
+        Integer appID = 00;
 		
         // TRY3 顧客管理アプリのレコードを２件更新する
         // execute PUT RECORD API

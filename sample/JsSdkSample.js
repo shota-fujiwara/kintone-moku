@@ -1,8 +1,7 @@
-var DOMAIN ="cy2013.cybozu.com";
-var appID = 457;
+var appID = 000;
 var recordID = 1;
  
-var kintoneConnection = new kintoneJSSDK.Connection(DOMAIN);
+var kintoneConnection = new kintoneJSSDK.Connection();
 var kintoneRecord = new kintoneJSSDK.Record(kintoneConnection);
 // TRY1 顧客管理アプリのレコードを全て取得する
 
